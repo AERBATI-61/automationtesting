@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+
+    <!--    groups-->
+    <!--    <groups>-->
+    <!--        <run>-->
+    <!--            <include name="smoke"></include>-->
+    <!--            <include name="regression"></include>-->
+    <!--        </run>-->
+    <!--    </groups>-->
+
+
+    <!--    parameter-->
+    <!--    <parameter name="email" value="test@test.com"></parameter>-->
+    <!--    <parameter name="password" value="test123"></parameter>-->
+
+
+<!--    <test verbose="2" preserve-order="true" name="/Users/arafat/RepeatSeleniumUdemy/src/main/java/Testng">-->
+
+
+        <!--        Testng.RunMethods-->
+        <!--        <classes>-->
+        <!--            <class name="Testng.RunMethods">-->
+        <!--                <methods>-->
+        <!--                    <include name="callMethod1"/>-->
+        <!--                    <include name="callMethod2"/>-->
+        <!--                </methods>-->
+        <!--            </class>-->
+        <!--        </classes>-->
+
+
+        <!--        Testng.RunClasses-->
+        <!--        <classes>-->
+        <!--            <class name="Testng.RunClasses">-->
+        <!--            </class>-->
+        <!--        </classes>-->
+
+
+        <!--                Testng.callPackages-->
+        <!--                <packages>-->
+        <!--                    <package name="Testng"></package>-->
+        <!--                </packages>-->
+
+
+        <!--                Testng.Include_Exclude-->
+        <!--                <classes>-->
+        <!--                    <class name="Testng.Include_Exclude">-->
+        <!--                        <methods>-->
+        <!--                            <include name="includeMethod"/>-->
+        <!--                            <exclude name="excludeMethod"/>-->
+        <!--                        </methods>-->
+        <!--                    </class>-->
+        <!--                </classes>-->
+
+
+        <!--        Testng.Name_Convention-->
+        <!--        <classes>-->
+        <!--            <class name="Testng.Name_Convention">-->
+        <!--                <methods>-->
+        <!--                    <include name="tablet.*"/>-->
+        <!--                    <include name="desktop_listItem"/>-->
+        <!--                </methods>-->
+        <!--            </class>-->
+        <!--        </classes>-->
+
+
+        <!--                <classes>-->
+        <!--                    <class name="Testng.Annotation">-->
+        <!--                    </class>-->
+        <!--                </classes>-->
+
+
+        <!--        <classes>-->
+        <!--            <class name="Testng.Group2"></class>-->
+        <!--            <class name="Testng.Group1"></class>-->
+        <!--        </classes>-->
+
+
+        <!--        <classes>-->
+        <!--            <class name="Testng.DataProviders"></class>-->
+        <!--        </classes>-->
+
+
+        <!--        <classes>-->
+        <!--            <class name="Testng.DependsOnMethods"></class>-->
+        <!--        </classes>-->
+
+
+        <!--        <classes>-->
+        <!--            <class name="Testng.Enabled"></class>-->
+        <!--        </classes>-->
+
+
+        <!--        <classes>-->
+        <!--            <class name="Testng.CallTestListener"></class>-->
+        <!--        </classes>-->
+
+
+        <!--        <classes>-->
+        <!--            <class name="Parametrisation.GlobalVariableBrowserUrl"></class>-->
+        <!--        </classes>-->
+
+
+<!--    </test>-->
+
+
+    <test verbose="2" preserve-order="true" name="test1">
+        <classes>
+            <class name="TestPageObjects.OrderCompleteTest"></class>
+        </classes>
+    </test>
+
+
+    <test verbose="2" preserve-order="true" name="test2">
+        <classes>
+            <class name="TestPageObjects.AddRemoveItem"></class>
+        </classes>
+    </test>
+
+</suite>
